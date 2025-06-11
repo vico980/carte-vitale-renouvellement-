@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renouvellement Carte Vitale</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="assets/logo_ameli.svg" alt="Logo Ameli" class="logo" />
+        <h1>Renouvellement de votre carte Vitale</h1>
+        <form action="paiement.html" method="GET">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Jean" required />
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Dupont" required />
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" placeholder="123 rue de la République" required />
+            <label for="naissance">Date de naissance :</label>
+            <input type="date" id="naissance" name="naissance" required />
+            <button type="submit">Continuer</button>
+        </form>
+    </div>
+</body>
+</html>
